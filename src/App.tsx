@@ -12,7 +12,7 @@ declare global {
 // Use environment variable with fallback for development/testing
 const NFT_CONTRACT_ADDRESS =
   import.meta.env.VITE_NFT_CONTRACT_ADDRESS ||
-  "0x9340184741D938453bF66D77d551Cc04Ab2F4925"; // Fallback address for development
+  "0x2c25F5253e197a8705cEb632b1c73a622fc8881c"; // Fallback address for development
 
 // Expanded ABI with methods we need
 const CONTRACT_ABI = [
